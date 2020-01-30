@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<resources>
+	<setting type="global" name="auto_time" value="1"/>
+	<setting type="global" name="auto_time_zone" value="1"/>
+	<setting type="system" name="time_12_24" value="24"/>
+	<setting type="system" name="date_format" value="yyyy/MM/dd"/>
+	<setting type="system" name="accelerometer_rotation" value="0"/>
+	<setting type="system" name="screen_brightness" value="178"/>
+	<setting type="system" name="status_bar_show_battery_percent" value="1"/>
+	<setting type="global" name="install_non_market_apps" value="0"/>
+	<setting type="secure" name="backup_enabled" value="0"/>
+	<setting type="secure" name="backup_transport" value="com.google.android.backup/.BackupTransportService"/>
+	<setting type="secure" name="default_input_method" value="com.google.android.inputmethod.latin/com.android.inputmethod.latin.LatinIME"/>
+	<setting type="secure" name="enabled_input_methods" value="com.google.android.inputmethod.latin/com.android.inputmethod.latin.LatinIME:com.google.android.googlequicksearchbox/com.google.android.voicesearch.ime.VoiceInputMethodService:com.google.android.inputmethod.pinyin/.PinyinIME"/>
+	<setting type="system" name="ipo_setting" value="0"/>
+	<setting type="system" name="lowrawapp_optimize_white_packages" value="com.tinno.fieldtester,com.tencent.mm,com.tencent.mobileqq,com.facebook.katana,com.whatsapp,com.skype.rover,com.snapchat.android,com.tnmb.bootclean,com.ape.cubes,com.ape.folio,com.ape.retailmode,com.tinno.autotesttool,com.tinno.fieldtester,com.antutu.ABenchMark,com.antutu.benchmark.full,it.telecomitalia.cubovision,it.telecomitalia.selectedbytim,com.telecomitalia.cubomusica"/>
+	<setting type="system" name="lowrawapp_optimize_limit_num" value="4"/>
+	<setting type="system" name="lowrawapp_optimize_limit_sum" value="6"/>
+	<setting type="system" name="lowrawapp_optimize_Custom_packages" value="com.kugou.android"/>
+	<setting type="system" name="lowrawapp_optimize_cpuload_normal" value="12.5"/>
+	<setting type="system" name="lowrawapp_optimize_cpuload_high" value="13.5"/>
+	<setting type="system" name="lowrawapp_optimize_cpuload_ultrahigh" value="16.5"/>
+	<setting type="system" name="lowrawapp_optimize_topPss_large" value="260000"/>
+	<setting type="system" name="lowrawapp_optimize_topPss_resume" value="150000"/>
+	<setting type="system" name="lowrawapp_optimize_topPss_ultralarge" value="340000"/>
+</resources>

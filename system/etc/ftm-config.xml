@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<resources>	
+    <!-- SPRD：Ver8.0.01.00 -->
+
+    <setting type="item" name="HALL" value="0"/>
+    <setting type="item" name="OTG" value="0"/>
+    <setting type="item" name="Gyroscope" value="0"/>
+    <setting type="item" name="MSensor" value="0"/>
+    
+    <!-- test feature configs-->
+    <setting type="config" name="keys_MENU_HOME_BACK_BACKTOUCH_SUGAR" value="0,0,0,0,0"/> <!--Keys: if the key is support, set to "1",else "0"-->
+    <setting type="config" name="TP" value="1"/>                               <!--TouchPanel: "0", "1", "2" means 3 ways to test-->
+    <setting type="config" name="no_front_flash" value="1"/>                   <!--LED-->
+    <setting type="config" name="Mic_2" value="0"/>                            <!--MicRecorder-->
+    <setting type="config" name="PsSimulatedByTP" value="1"/>                  <!--Alsps: if psensor is simiulated by tp, set to "1"-->
+    <!-- item below only in project v3760 should be set "1" -->
+    <setting type="config" name="NFC_supported" value="0"/>                <!--Fingerprint -->
+    <setting type="config" name="TP_FtTerminal" value="0"/>
+
+<!--
+    <setting type="item" name="Keys" value="0"/>
+    <setting type="item" name="Version" value="0"/>
+    <setting type="item" name="MemoryCard" value="0"/>
+    <setting type="item" name="LED" value="0"/>
+    <setting type="item" name="HALL" value="0"/>
+    <setting type="item" name="PhoneLoopBackTest" value="0"/>
+    <setting type="item" name="FMTest" value="0"/>
+    <setting type="item" name="OTG" value="0"/>
+    <setting type="item" name="ChargerTest" value="0"/>
+    <setting type="item" name="Alsps" value="0"/>
+    <setting type="item" name="MSensor" value="0"/>
+    <setting type="item" name="GSensor" value="0"/>
+    <setting type="item" name="Gyroscope" value="0"/>
+    <setting type="item" name="Camera" value="0"/>
+    <setting type="item" name="CallTest" value="0"/>
+    
+  Don't modify items to "0" below, unless "DontRunItemsInBackground" set to "1":
+    <setting type="item" name="TouchPanel" value="1"/>
+    <setting type="item" name="LCDcolor" value="1"/>
+    <setting type="item" name="LCDcontrast" value="1"/>
+    <setting type="item" name="Speaker" value="1"/>
+    <setting type="item" name="Receiver" value="1"/>
+    <setting type="item" name="VibratorTest" value="1"/>
+    <setting type="item" name="SIMDetect" value="1"/>
+    <setting type="item" name="WiFiList" value="1"/>
+    <setting type="item" name="BluetoothList" value="1"/>
+-->
+
+   <!-- <setting type="config" name="DontRunItemsInBackground" value="0"/> -"0":do some items in background,combine some items,"1":items test one by one-->
+</resources>

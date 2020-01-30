@@ -1,0 +1,11 @@
+service ylog /system/bin/ylog
+    class main
+    socket ylog seqpacket 0666 ylog ylog
+    user root
+    disabled
+
+service ylog_force_startup /system/bin/ylog FORCE_STARTUP
+    class main
+    socket ylog seqpacket 0666 ylog ylog
+    user root
+    disabled

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<resources>
+<setting name="customVersionCode" value="*#79#"/>
+<!--
+<setting name="internelVersionCode" value="*#*#86436#*#*"/>
+<setting name="deviceInfoCode" value="*#*#0661#*#*"/>
+-->
+<setting name="engineerCode" value="*#435763#"/>
+</resources>
