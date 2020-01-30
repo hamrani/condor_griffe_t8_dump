@@ -1,0 +1,2 @@
+security                                  u:object_r:security_service:s0
+VideoCallEngineService                    u:object_r:vce_service:s0
